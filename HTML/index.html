@@ -4,20 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"> 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="CSS/main.css">
-    <title>Cotillón Josefina - Inicio</title>
-    <meta name="description" content="Nos dedicamos a la venta de artículos de cotillón y repostería, contando con primeras marcas y 
-                                      una amplia variedad. Además, brindamos cursos virtuales de repostería a precios accesibles.">
-    <meta name="keywords" content="COTILLÓN, COTILLÓN LOMAS DE ZAMORA, ARTÍCULOS COTILLÓN, CARNAVAL CARIOCA, DISFRACES, CURSOS REPOSTERÍA, 
-                                   RECETAS, INGREDIENTES">
 </head>
 <body id="bodyBox">
-
-<!--Inicio Header-->
+    <!--Inicio Header-->
     <header class="banner">
         
         <img class="banner__logo" src="Multimedia/logo.png" alt="logo de Cotillón Josefina">
@@ -25,125 +19,115 @@
         <h2 class="banner__eslogan">
             Cotillón Josefina
         </h2>
-    </header>
+     </header>
 <!--Inicio Header-->
 
-<!--Inicio Nav-->
-<nav class="navegadorIndex container-fluid">
-    <ul class="navegador__lista nav justify-content-center">
-        <li class="navegador__item">
-            <a class="navegador__link navegador__link--activo" href="index.html">Inicio</a>
-        </li>
-            
-        <li class="navegador__item">
-            <a class="navegador__link" href="galeria.html">Galería</a>
-        </li>
-            
-        <li class="navegador__item">
-            <a class="navegador__link" href="cursos.html">Cursos</a>
-        </li>
-            
-        <li class="navegador__item">
-            <a class="navegador__link" href="recetario.html">Recetario</a>
-        </li> 
-        <li class="navegador__item">
-            <a class="navegador__link" href="contacto.html">Contacto</a>
-        </li>
-    </ul>
-</nav>
-<!--Inicio Nav-->
 
+<!--Inicio Nav-->
+    <nav>
+        <input type="checkbox" id="menu">
+        <label for="menu"><img src="Multimedia/icono-menu.png" alt=""></label>
+    
+        <div class="menu">
+            <ul>
+                <li><a id="active" href="index.html">Inicio</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="recetario.html">Recetario</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+<!--Inicio Nav-->
 <!--Inicio Section-->
-        <section class="seccionIndex">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="Multimedia/INICIO1.jpg"  class="d-block-100" alt="torta de cumpleaños">
-                    <div class="carousel-caption d-md-block">
-                        <h5>Cotillón Josefina:</h5>
-                        <p>Artículos de cotillón, repostería & cursos</p>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="Multimedia/INICIO2.jpg"  class="d-block-100" alt="artículos de repostería">
-                    <div class="carousel-caption d-md-block">
-                        <h5>Repostería:</h5>
-                        <p>Toppins, colorantes, utensilios & moldes</p>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="Multimedia/INICIO3.jpg" class="d-block-100" alt="artículos descartables: platos, utensilios, etc.">
-                    <div class="carousel-caption d-md-block">
-                        <h5>Descartables:</h5>
-                        <p>Cubiertos, manteles, platos, servilletas & más</p>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="Multimedia/INICIO4.jpg" class="d-block-100" alt="artículos de cotillón según temáticas">
-                    <div class="carousel-caption d-md-block">
-                        <h5>Temáticas:</h5>
-                    <p>Comuniones, bautismos, bodas & cumpleaños</p>
-                      </div>
-                  </div>
-                  <div class="carousel-item">
-                    <img src="Multimedia/INICIO5.jpg" class="d-block-100" alt="repostería de pascuas">
-                    <div class="carousel-caption d-md-block">
-                        <h5>Pascuas:</h5>
-                        <p>Chocolates, moldes, confites & colorantes</p>
-                      </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Siguiente</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Anterior</span>
-                </button>
+<section class="seccionIndex">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Multimedia/INICIO1.jpg"  class="d-block-100" alt="torta de cumpleaños">
+            <div class="carousel-caption d-md-block">
+                <h5>Cotillón Josefina:</h5>
+                <p>Artículos de cotillón, repostería & cursos</p>
               </div>
-        </section>
+          </div>
+          <div class="carousel-item">
+            <img src="Multimedia/INICIO2.jpg"  class="d-block-100" alt="artículos de repostería">
+            <div class="carousel-caption d-md-block">
+                <h5>Repostería:</h5>
+                <p>Toppins, colorantes, utensilios & moldes</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Multimedia/INICIO3.jpg" class="d-block-100" alt="artículos descartables: platos, utensilios, etc.">
+            <div class="carousel-caption d-md-block">
+                <h5>Descartables:</h5>
+                <p>Cubiertos, manteles, platos, servilletas & más</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Multimedia/INICIO4.jpg" class="d-block-100" alt="artículos de cotillón según temáticas">
+            <div class="carousel-caption d-md-block">
+                <h5>Temáticas:</h5>
+            <p>Comuniones, bautismos, bodas & cumpleaños</p>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Multimedia/INICIO5.jpg" class="d-block-100" alt="repostería de pascuas">
+            <div class="carousel-caption d-md-block">
+                <h5>Pascuas:</h5>
+                <p>Chocolates, moldes, confites & colorantes</p>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+      </div>
+</section>
 <!--Inicio Section-->
 
 <!--Inicio Aside-->
 <aside class="aside">
-    <span> 
-        <a href="https://www.facebook.com/CotillonJosefina1">
-            <img class="aside__icono aside__icono--hoverIcono" src="Multimedia/facebook.png" alt="link de facebook">
-        </a>
-    </span>
-    <span>
-        <a href="https://www.instagram.com/cotillon.josefina/?hl=es">
-            <img class="aside__icono aside__icono--hoverIcono" src="Multimedia/instagram.png" alt="link de instagram">
-        </a>
-    </span>
-        <span>
-        <a href="https://api.whatsapp.com/send?phone=5491125817914">
-            <img class="aside__icono aside__icono--hoverIcono" src="Multimedia/whatsapp.png" alt="link de whatsapp">
-        </a>
-    </span>
+<span> 
+<a href="https://www.facebook.com/CotillonJosefina1">
+    <img class="aside__icono aside__icono--hoverIcono" src="Multimedia/facebook.png" alt="link de facebook">
+</a>
+</span>
+<span>
+<a href="https://www.instagram.com/cotillon.josefina/?hl=es">
+    <img class="aside__icono aside__icono--hoverIcono" src="Multimedia/instagram.png" alt="link de instagram">
+</a>
+</span>
+<span>
+<a href="https://api.whatsapp.com/send?phone=5491125817914">
+    <img class="aside__icono aside__icono--hoverIcono" src="Multimedia/whatsapp.png" alt="link de whatsapp">
+</a>
+</span>
 </aside>
 <!--Inicio Aside-->
 
 <!--Inicio Footer-->
-        <footer class="pie pieIndex">
-          <p class="pie__texto">Claudio de Alas 2175 
-            <br> Lomas de Zamora
-          </p>
-        </footer>
+<footer class="pie pieIndex">
+  <p class="pie__texto">Claudio de Alas 2175 
+    <br> Lomas de Zamora
+  </p>
+</footer>
 <!--Inicio Footer-->
-
-<!--Scripts Bootstrap-->
+   <!--Scripts Bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 <!--Scripts Bootstrap-->
-
 </body>
 </html>
