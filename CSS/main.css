@@ -181,7 +181,7 @@ nav label:hover{
     .banner__eslogan {
       font-size: 45px; }
     .menu li {
-      font-size: 30px; }
+      font-size: 20px; }
     #carouselExampleIndicators {
       width: 650px; }
     .seccionGalery img {
@@ -192,8 +192,8 @@ nav label:hover{
     .menu{
         position: absolute;
         background-image: linear-gradient(#aae1fa, #5bd1f5);
-        width: 60%;
-        margin-left: -60%;
+        width: 45%;
+        margin-left: -45%;
         transition: all 0.5s;
         z-index: 100;}
     .menu ul{
