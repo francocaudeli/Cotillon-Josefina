@@ -103,7 +103,10 @@ nav label:hover{
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding-bottom: 10px;
-    padding-top: 10px; }
+    padding-top: 10px; 
+    font-family: 'Itim', cursive;}
+    .seccionGalery .card-body{
+    padding: 5px;}
     .seccionGalery img {
       margin-bottom: 5px;
       margin-top: 5px;
@@ -237,7 +240,11 @@ nav label:hover{
     height: 350px;}
   .seccionGalery img {
     width: 200px;
-    height: 200px; } 
+    height: 200px; }
+  .seccionGalery .card{
+        width: 90%; }
+  .seccionGalery .card img{
+      width: 100%; }
     header{
     height: 150px;}
   .banner__logo{
