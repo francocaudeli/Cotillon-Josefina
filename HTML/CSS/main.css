@@ -108,8 +108,7 @@ nav label:hover{
     .seccionGalery .card-body{
     padding: 5px;}
     .seccionGalery img {
-      margin-bottom: 5px;
-      margin-top: 5px;
+      margin: 0;
       width: 300px;
       height: 300px; }
   .seccion {
@@ -238,11 +237,9 @@ nav label:hover{
     height: 370px;}
   #carouselExampleIndicators img{
     height: 350px;}
-  .seccionGalery img {
-    width: 200px;
-    height: 200px; }
   .seccionGalery .card{
-        width: 90%; }
+        width: 90%;
+        height: 350px;}
   .seccionGalery .card img{
       width: 100%; }
     header{
