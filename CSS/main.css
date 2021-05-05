@@ -95,7 +95,9 @@ nav label:hover{
     padding-bottom: 10px;
     padding-top: 10px; }
   #carouselExampleIndicators {
-    width: 600px; }
+    width: 600px; 
+    border-radius: 55px 55px 55px 55px;
+    overflow: hidden;}
     #carouselExampleIndicators img {
       width: 100%;
       height: 400px; }
