@@ -77,6 +77,7 @@ nav label:hover{
     background-color: white;
     padding: 5px;
     border: 1px solid violet;
+    border-radius: 5px 5px 5px 5px;
     color: #f34794;
     text-align: center;
     font-size: 20px;
