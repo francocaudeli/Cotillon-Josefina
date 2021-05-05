@@ -121,10 +121,12 @@ nav label:hover{
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding-bottom: 10px;
-    padding-top: 10px; }
+    padding-top: 10px;
+    font-family: 'Itim', cursive;}
+  .seccionGalery .card-body{
+    padding: 5px;}
     .seccionGalery img {
-      margin-bottom: 5px;
-      margin-top: 5px;
+      margin: 0;
       width: 300px;
       height: 300px; }
   .seccion {
