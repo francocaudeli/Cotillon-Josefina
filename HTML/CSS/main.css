@@ -157,6 +157,8 @@ nav label:hover{
     border-color: #f34794;
     color: white;
     cursor: pointer; }
+  .seccion label{
+    cursor: pointer;}
   /* SECTION */
   
   /* ASIDE */
