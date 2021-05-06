@@ -264,6 +264,8 @@ nav label:hover{
 .seccionGalery .card img{
       width: 100%;
      height: 350px; }
+    header{
+    height: 150px;}
   .banner__logo{
     height: 120px;}
   .banner__eslogan{
