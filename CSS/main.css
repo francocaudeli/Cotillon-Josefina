@@ -123,6 +123,8 @@ nav label:hover{
     padding-bottom: 10px;
     padding-top: 10px;
     font-family: 'Itim', cursive;}
+  .seccionGalery .card{
+    border-radius: .50rem;}
   .seccionGalery .card-body{
     padding: 5px;}
     .seccionGalery img {
