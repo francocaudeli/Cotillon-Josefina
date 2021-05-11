@@ -124,14 +124,15 @@ nav label:hover{
     padding-top: 10px;
     font-family: 'Itim', cursive;}
   .seccionGalery .card{
-    border-radius: .50rem;}
+    border-radius: .50rem .50rem;}
   .seccionGalery .card-body{
     padding: 5px;}
     .seccionGalery img {
       margin: 0;
       width: 300px;
       height: 300px; 
-      border-radius: 0.50rem;}
+      border-top-left-radius: 0.50rem;
+      border-top-right-radius: 0.50rem;}
   .seccion {
     display: flex;
     flex-direction: row;
