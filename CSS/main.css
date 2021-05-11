@@ -1,7 +1,7 @@
 /* BODY */
 #bodyBox {
     margin: 0%;
-    background-image: url(https://i.pinimg.com/564x/58/c1/be/58c1be10576d045989db493ca6b9d6e8.jpg);
+    background-image: url(../Multimedia/background.jpg);
     background-repeat: repeat;
     display: flex;
     flex-direction: column;
